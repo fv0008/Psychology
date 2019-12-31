@@ -1,11 +1,11 @@
 package models
 
 import (
+	"../lib"
 	"errors"
 	"fmt"
 	"reflect"
 	"strings"
-	"nxxlzx/lib"
 
 	"github.com/astaxie/beego/orm"
 )

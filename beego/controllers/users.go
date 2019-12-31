@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"nxxlzx/models"
+	"../models"
 	"strconv"
 	"fmt"
 )

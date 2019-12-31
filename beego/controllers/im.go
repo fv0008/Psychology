@@ -3,7 +3,7 @@ package controllers
 import (
     "log"
 
-    "nxxlzx/models"
+    "../models"
     "time"
 
     "github.com/gorilla/websocket"

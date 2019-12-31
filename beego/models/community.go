@@ -1,9 +1,9 @@
 package models
 
 import (
+	"../lib"
 	"errors"
 	"fmt"
-	"nxxlzx/lib"
 	"reflect"
 	"strconv"
 	"strings"

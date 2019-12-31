@@ -3,7 +3,7 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"nxxlzx/models"
+	"../models"
 	"strconv"
 	"strings"
 )

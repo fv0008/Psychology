@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"],
+    beego.GlobalControllerRouter["../controllers:AdminController"] = append(beego.GlobalControllerRouter["../controllers:AdminController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"],
+    beego.GlobalControllerRouter["../controllers:AdminController"] = append(beego.GlobalControllerRouter["../controllers:AdminController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -25,7 +25,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"],
+    beego.GlobalControllerRouter["../controllers:AdminController"] = append(beego.GlobalControllerRouter["../controllers:AdminController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -34,7 +34,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:AdminController"],
+    beego.GlobalControllerRouter["../controllers:AdminController"] = append(beego.GlobalControllerRouter["../controllers:AdminController"],
         beego.ControllerComments{
             Method: "Login",
             Router: `/login`,
@@ -43,7 +43,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"],
+    beego.GlobalControllerRouter["../controllers:BannerController"] = append(beego.GlobalControllerRouter["../controllers:BannerController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -52,7 +52,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"],
+    beego.GlobalControllerRouter["../controllers:BannerController"] = append(beego.GlobalControllerRouter["../controllers:BannerController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -61,7 +61,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"],
+    beego.GlobalControllerRouter["../controllers:BannerController"] = append(beego.GlobalControllerRouter["../controllers:BannerController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -70,7 +70,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:BannerController"],
+    beego.GlobalControllerRouter["../controllers:BannerController"] = append(beego.GlobalControllerRouter["../controllers:BannerController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -79,7 +79,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -88,7 +88,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -97,7 +97,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -106,7 +106,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -115,7 +115,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassSubController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassSubController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassSubController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassSubController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -124,7 +124,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassSubController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassSubController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassSubController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassSubController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -133,7 +133,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassSubController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityClassSubController"],
+    beego.GlobalControllerRouter["../controllers:CommunityClassSubController"] = append(beego.GlobalControllerRouter["../controllers:CommunityClassSubController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -142,7 +142,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"],
+    beego.GlobalControllerRouter["../controllers:CommunityController"] = append(beego.GlobalControllerRouter["../controllers:CommunityController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -151,7 +151,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"],
+    beego.GlobalControllerRouter["../controllers:CommunityController"] = append(beego.GlobalControllerRouter["../controllers:CommunityController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -160,7 +160,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"],
+    beego.GlobalControllerRouter["../controllers:CommunityController"] = append(beego.GlobalControllerRouter["../controllers:CommunityController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -169,7 +169,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"],
+    beego.GlobalControllerRouter["../controllers:CommunityController"] = append(beego.GlobalControllerRouter["../controllers:CommunityController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -178,7 +178,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityController"],
+    beego.GlobalControllerRouter["../controllers:CommunityController"] = append(beego.GlobalControllerRouter["../controllers:CommunityController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -187,7 +187,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityReplyController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityReplyController"],
+    beego.GlobalControllerRouter["../controllers:CommunityReplyController"] = append(beego.GlobalControllerRouter["../controllers:CommunityReplyController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -196,7 +196,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityReplyController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityReplyController"],
+    beego.GlobalControllerRouter["../controllers:CommunityReplyController"] = append(beego.GlobalControllerRouter["../controllers:CommunityReplyController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -205,7 +205,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:CommunityReplyController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:CommunityReplyController"],
+    beego.GlobalControllerRouter["../controllers:CommunityReplyController"] = append(beego.GlobalControllerRouter["../controllers:CommunityReplyController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -214,7 +214,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"],
+    beego.GlobalControllerRouter["../controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["../controllers:ExpertAuthController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -223,7 +223,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"],
+    beego.GlobalControllerRouter["../controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["../controllers:ExpertAuthController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -232,7 +232,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"],
+    beego.GlobalControllerRouter["../controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["../controllers:ExpertAuthController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -241,7 +241,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertAuthController"],
+    beego.GlobalControllerRouter["../controllers:ExpertAuthController"] = append(beego.GlobalControllerRouter["../controllers:ExpertAuthController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -250,7 +250,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"],
+    beego.GlobalControllerRouter["../controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["../controllers:ExpertClassController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -259,7 +259,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"],
+    beego.GlobalControllerRouter["../controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["../controllers:ExpertClassController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -268,7 +268,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"],
+    beego.GlobalControllerRouter["../controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["../controllers:ExpertClassController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -277,7 +277,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertClassController"],
+    beego.GlobalControllerRouter["../controllers:ExpertClassController"] = append(beego.GlobalControllerRouter["../controllers:ExpertClassController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -286,7 +286,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"],
+    beego.GlobalControllerRouter["../controllers:ExpertController"] = append(beego.GlobalControllerRouter["../controllers:ExpertController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -295,7 +295,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"],
+    beego.GlobalControllerRouter["../controllers:ExpertController"] = append(beego.GlobalControllerRouter["../controllers:ExpertController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -304,7 +304,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"],
+    beego.GlobalControllerRouter["../controllers:ExpertController"] = append(beego.GlobalControllerRouter["../controllers:ExpertController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -313,7 +313,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"],
+    beego.GlobalControllerRouter["../controllers:ExpertController"] = append(beego.GlobalControllerRouter["../controllers:ExpertController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -322,7 +322,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ExpertController"],
+    beego.GlobalControllerRouter["../controllers:ExpertController"] = append(beego.GlobalControllerRouter["../controllers:ExpertController"],
         beego.ControllerComments{
             Method: "Login",
             Router: `/login`,
@@ -331,7 +331,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:ImController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:ImController"],
+    beego.GlobalControllerRouter["../controllers:ImController"] = append(beego.GlobalControllerRouter["../controllers:ImController"],
         beego.ControllerComments{
             Method: "Ws",
             Router: `/ws`,
@@ -340,7 +340,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"],
+    beego.GlobalControllerRouter["../controllers:InfoClassController"] = append(beego.GlobalControllerRouter["../controllers:InfoClassController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -349,7 +349,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"],
+    beego.GlobalControllerRouter["../controllers:InfoClassController"] = append(beego.GlobalControllerRouter["../controllers:InfoClassController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -358,7 +358,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"],
+    beego.GlobalControllerRouter["../controllers:InfoClassController"] = append(beego.GlobalControllerRouter["../controllers:InfoClassController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -367,7 +367,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoClassController"],
+    beego.GlobalControllerRouter["../controllers:InfoClassController"] = append(beego.GlobalControllerRouter["../controllers:InfoClassController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -376,7 +376,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"],
+    beego.GlobalControllerRouter["../controllers:InfoController"] = append(beego.GlobalControllerRouter["../controllers:InfoController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -385,7 +385,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"],
+    beego.GlobalControllerRouter["../controllers:InfoController"] = append(beego.GlobalControllerRouter["../controllers:InfoController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -394,7 +394,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"],
+    beego.GlobalControllerRouter["../controllers:InfoController"] = append(beego.GlobalControllerRouter["../controllers:InfoController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -403,7 +403,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"],
+    beego.GlobalControllerRouter["../controllers:InfoController"] = append(beego.GlobalControllerRouter["../controllers:InfoController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -412,7 +412,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:InfoController"],
+    beego.GlobalControllerRouter["../controllers:InfoController"] = append(beego.GlobalControllerRouter["../controllers:InfoController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -421,7 +421,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"],
+    beego.GlobalControllerRouter["../controllers:MenuController"] = append(beego.GlobalControllerRouter["../controllers:MenuController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -430,7 +430,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"],
+    beego.GlobalControllerRouter["../controllers:MenuController"] = append(beego.GlobalControllerRouter["../controllers:MenuController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -439,7 +439,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"],
+    beego.GlobalControllerRouter["../controllers:MenuController"] = append(beego.GlobalControllerRouter["../controllers:MenuController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -448,7 +448,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:MenuController"],
+    beego.GlobalControllerRouter["../controllers:MenuController"] = append(beego.GlobalControllerRouter["../controllers:MenuController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -457,7 +457,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"],
+    beego.GlobalControllerRouter["../controllers:OpinionController"] = append(beego.GlobalControllerRouter["../controllers:OpinionController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -466,7 +466,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"],
+    beego.GlobalControllerRouter["../controllers:OpinionController"] = append(beego.GlobalControllerRouter["../controllers:OpinionController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -475,7 +475,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"],
+    beego.GlobalControllerRouter["../controllers:OpinionController"] = append(beego.GlobalControllerRouter["../controllers:OpinionController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -484,7 +484,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:OpinionController"],
+    beego.GlobalControllerRouter["../controllers:OpinionController"] = append(beego.GlobalControllerRouter["../controllers:OpinionController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -493,7 +493,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UploadController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UploadController"],
+    beego.GlobalControllerRouter["../controllers:UploadController"] = append(beego.GlobalControllerRouter["../controllers:UploadController"],
         beego.ControllerComments{
             Method: "Upload",
             Router: `/upload`,
@@ -502,7 +502,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"],
+    beego.GlobalControllerRouter["../controllers:UsersController"] = append(beego.GlobalControllerRouter["../controllers:UsersController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -511,7 +511,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"],
+    beego.GlobalControllerRouter["../controllers:UsersController"] = append(beego.GlobalControllerRouter["../controllers:UsersController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -520,7 +520,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"],
+    beego.GlobalControllerRouter["../controllers:UsersController"] = append(beego.GlobalControllerRouter["../controllers:UsersController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -529,7 +529,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"],
+    beego.GlobalControllerRouter["../controllers:UsersController"] = append(beego.GlobalControllerRouter["../controllers:UsersController"],
         beego.ControllerComments{
             Method: "Login",
             Router: `/login`,
@@ -538,7 +538,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"],
+    beego.GlobalControllerRouter["../controllers:UsersController"] = append(beego.GlobalControllerRouter["../controllers:UsersController"],
         beego.ControllerComments{
             Method: "SessionKey",
             Router: `/session_key`,
@@ -547,7 +547,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"] = append(beego.GlobalControllerRouter["nxxlzx/controllers:UsersController"],
+    beego.GlobalControllerRouter["../controllers:UsersController"] = append(beego.GlobalControllerRouter["../controllers:UsersController"],
         beego.ControllerComments{
             Method: "SignUp",
             Router: `/signup`,

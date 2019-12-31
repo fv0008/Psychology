@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"encoding/json"
-	"nxxlzx/models"
+	"../models"
 	"strconv"
 )
 
